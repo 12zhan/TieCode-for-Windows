@@ -10,9 +10,13 @@ repositories {
 }
 
 dependencies {
+
     testImplementation(platform("org.junit:junit-bom:5.10.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
-    implementation("io.github.vincenzopalazzo:material-ui-swing:1.1.2")
+    implementation("com.formdev:flatlaf:3.4.1")
+
+    implementation(fileTree("libs",))
+
 }
 
 tasks.test {

@@ -4,17 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b4bab5b-bfb4-4105-a0a3-e3d56ad9de1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/windows/tiecode/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/windows/tiecode/ui/OpenMain.java" afterDir="false" />
+    <list default="true" id="2b4bab5b-bfb4-4105-a0a3-e3d56ad9de1c" name="Changes" comment="首次提交-项目模板">
+      <change afterPath="$PROJECT_DIR$/libs/annotations-20.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/commonmark-0.18.2-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/flatlaf-0.46.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jediterm-pty-2.67-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jediterm-typeahead-2.67-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jna-5.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jna-platform-5.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/json.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/pty4j-0.12.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/purejavacomm-0.0.11.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/slf4j-api-1.7.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/slf4j-jdk14-1.7.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/terminal-2.67.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/windows/tiecode/ui/Adapter/FileItemAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/windows/tiecode/ui/components/JImageVIew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/windows/tiecode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/windows/tiecode/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/windows/tiecode/ui/components/FileSelectDialog/FileSelectDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/windows/tiecode/ui/components/FileSelectDialog/FileSelectDialog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +37,26 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="TieCode" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -36,22 +67,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2elR4Qo3ZFg4ouVRRaDY07kW7NL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.TieCode [:Main.main()].executor": "Run",
+    "Gradle.TieCode [build].executor": "Run",
+    "JAR 应用程序.terminal-2.67.jar.executor": "Run",
+    "OverrideImplement.generate.javadoc": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Administrator/Desktop/Language/java/TieCode/libs",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,6 +96,70 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\Language\java\TieCode\libs" />
+      <recent name="C:\Users\Administrator\Desktop\Language\java\TieCode\src\main\lib" />
+      <recent name="C:\Users\Administrator\Desktop\Language\java\TieCode\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\Language\java\TieCode\libs" />
+      <recent name="C:\Users\Administrator\Desktop\Language\java\TieCode" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle build" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.TieCode [build]">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.windows.tiecode.Main" />
+      <module name="TieCode.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.windows.tiecode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TieCode [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="terminal-2.67.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/src/main/lib/terminal-2.67.jar" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.TieCode [build]" />
+        <item itemvalue="JAR 应用程序.terminal-2.67.jar" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -77,11 +176,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712476990341</updated>
-      <workItem from="1712476991440" duration="1016000" />
+      <workItem from="1712476991440" duration="9262000" />
+      <workItem from="1712490352194" duration="1910000" />
     </task>
+    <task id="LOCAL-00001" summary="首次提交-项目模板">
+      <option name="closed" value="true" />
+      <created>1712478283357</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712478283357</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="首次提交-项目模板" />
+    <option name="LAST_COMMIT_MESSAGE" value="首次提交-项目模板" />
   </component>
 </project>
